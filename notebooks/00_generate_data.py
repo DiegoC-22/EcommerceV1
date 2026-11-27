@@ -16,7 +16,7 @@
 
 # COMMAND ----------
 
-raw_path = "/Volumes/workspace/landing/raw_sales"
+raw_path = "/Volumes/workspace/landing/raw_sales_s3"
 
 # COMMAND ----------
 

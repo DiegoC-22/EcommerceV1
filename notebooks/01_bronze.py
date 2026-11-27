@@ -16,7 +16,7 @@
 from pyspark.sql.types import StructType, StructField, StringType
 from pyspark.sql.functions import current_timestamp, col
 
-landing_path    = "/Volumes/workspace/landing/raw_sales/"
+landing_path    = "/Volumes/workspace/landing/raw_sales_s3/"
 checkpoint_path = "/Volumes/workspace/bronze/checkpoints/sales"
 target_table    = "workspace.bronze.sales"
 
